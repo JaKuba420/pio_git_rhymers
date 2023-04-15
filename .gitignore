@@ -1,0 +1,21 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Ignore 'bin' dir
+bin/
+
+# Ignore classes filez
+*.class
+
+#Ignore packages
+*.zip
+*.rar
+*.jar
