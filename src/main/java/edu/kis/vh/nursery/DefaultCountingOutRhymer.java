@@ -7,7 +7,11 @@ public class DefaultCountingOutRhymer {
     public static final int START_TOTAL = -1;
     private final int[] NUMBERS = new int[TABLE_SIZE];
 
-    public int total = START_TOTAL;
+    private int total = START_TOTAL;
+
+    public int getTotal() {
+        return total;
+    }
 
     public void countIn(int in) {
         if (!isFull())
@@ -34,4 +38,7 @@ public class DefaultCountingOutRhymer {
         return NUMBERS[total--];
     }
 
+    public int[] getNUMBERS() {
+        return NUMBERS;
+    }
 }
